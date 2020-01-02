@@ -6,6 +6,10 @@ from functools import reduce
 from timing import timing
 
 
+def passing():
+    pass
+
+
 def scm(a, b):
     return a * b // gcd(a, b)
 
