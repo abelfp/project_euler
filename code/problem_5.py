@@ -13,6 +13,7 @@ def scm(a, b):
 @timing
 def smallest_mult(n_mult):
     """Find the smallest multiple for n_mult integers"""
+    # comment for testing
     return reduce(scm, range(1, n_mult + 1))
 
 
