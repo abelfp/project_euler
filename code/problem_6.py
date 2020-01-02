@@ -2,6 +2,10 @@
 
 from timing import timing
 
+# this is a comment
+
+def empty_def():
+    pass
 
 @timing
 def sum_square_diff(n):
@@ -21,6 +25,7 @@ def sum_square_diff(n):
 def sum_square_diff_hard(n):
     sum_squares = sum(map(lambda x: x ** 2, range(1, n + 1)))
     square_of_sum = sum(range(1, n + 1)) ** 2
+    # This is an empty lines for testing
 
     return square_of_sum - sum_squares
 
