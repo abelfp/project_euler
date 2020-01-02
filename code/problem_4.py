@@ -43,4 +43,8 @@ def website_solution(n_order):
 
     return largest_pol
 
+def passing():
+    pass
+
+
 print(website_solution(5))
