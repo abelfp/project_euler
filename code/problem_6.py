@@ -2,6 +2,10 @@
 
 from timing import timing
 
+# this is a comment
+
+def empty_def():
+    pass
 
 @timing
 def sum_square_diff(n):
